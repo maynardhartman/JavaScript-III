@@ -44,5 +44,5 @@ function Bubbles(name, size, color) {
     }
 };
 // Principle 4
-
+// expllicit
 // code example for Explicit Binding
