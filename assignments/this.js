@@ -35,7 +35,14 @@ const bubbleBlower =  {
 };
 bubbleBlower.name('Nancy');
 // code example for New Binding
-
+function Bubbles(name, size, color) {
+    this.color = color;
+    this.size  = size;
+    this.name  = name;
+    this.blow = function() {
+        console.log(`${this.name} blew a ${size} ${color} bubble.`);
+    }
+};
 // Principle 4
 
 // code example for Explicit Binding
